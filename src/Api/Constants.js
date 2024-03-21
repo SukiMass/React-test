@@ -1,0 +1,2 @@
+export const REACT_APP_GOOGLE_MAPS_KEY =
+  "AIzaSyARMyW7cBdFIGLM6mYf7H7x0HZzczAv7_0";

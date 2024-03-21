@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import Api from './Api/Api';
 import './App.css';
-
+import Login from './Login/Login';
+import Routing from './Login/Routing';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Mode1/> */}
+      {/* <Login/> */}
+      <Routing/>
+      {/* <Api/> */}
+            {/* <img src={orange} className="card-img-top" alt={'drupeff'} /> */}
+
+    </>
   );
 }
 
